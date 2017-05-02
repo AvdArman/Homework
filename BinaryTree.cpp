@@ -103,15 +103,3 @@ int BinaryTree::size(node* node, int length) const {
 int BinaryTree::size() const{
     return size(root);
 }
-
-/*bool BinaryTree::find(node* root, int value) {
-    if (root -> data == value) {
-        return true;
-    }
-    if (value > root -> data) {
-        find(root -> right, value);
-    }else if (value < root -> data) {
-        find(root -> left, value);
-    }
- * delete
-}*/
