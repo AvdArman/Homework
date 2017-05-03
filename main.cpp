@@ -13,6 +13,5 @@ int main() {
 
     std::cout << b.find(0) << std::endl;
     std::cout << b.height() << std::endl;
-    std::cout << b.size();
     return 0;
 }
