@@ -1,13 +1,11 @@
 language: python
 python:
-    - "3.4"
     - "3.5"
-    - "3.6"
 install:
     - pip install coverage
 before_script: 
-    - git clone https://github.com/Araksya-Hambaryan/ITC-9.git
-    - ls
+    - git clone https://github.com/Araksya-Hambaryan/ITC-9.git 
+    - cd ITC-9/Arman_Avdalyan/Homeworks/Python/1_11.06/
 script:
     - python json.py
 after_script: coverage report
