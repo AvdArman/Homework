@@ -5,7 +5,6 @@ python:
     - "3.6"
 install:
     - pip install coverage
-before_script: cd ./Arman_Avdalyan/Homeworks/Python/1_11.06/
 script:
-    - python json.py
+    - python Arman_Avdalyan/Homeworks/Python/1_11.06/json.py
 after_script: coverage report
